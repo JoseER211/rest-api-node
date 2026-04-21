@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "duration": "148 min",
+    "poster": "https://image.tmdb.org/t/p/w500/9gk7Fn9sVAsS969O9oqysOEOO0u.jpg",
+    "genre": ["Action", "Sci-Fi", "Adventure"],
+    "rate": 8.8
+  },
+  {
+    "id": 2,
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "director": "Frank Darabont",
+    "duration": "142 min",
+    "poster": "https://image.tmdb.org/t/p/w500/q6y0Go1tsvn2KBigC2mBvmvLhPL.jpg",
+    "genre": ["Drama"],
+    "rate": 9.3
+  },
+  {
+    "id": 3,
+    "title": "The Godfather",
+    "year": 1972,
+    "director": "Francis Ford Coppola",
+    "duration": "175 min",
+    "poster": "https://image.tmdb.org/t/p/w500/3bhkrj68VvB7KLifeR9LBtgMfmj.jpg",
+    "genre": ["Crime", "Drama"],
+    "rate": 9.2
+  },
+  {
+    "id": 4,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "director": "Christopher Nolan",
+    "duration": "152 min",
+    "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6P3p7p1Ym37Gis4S3qZmbi.jpg",
+    "genre": ["Action", "Crime", "Drama"],
+    "rate": 9.0
+  },
+  {
+    "id": 5,
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "director": "Quentin Tarantino",
+    "duration": "154 min",
+    "poster": "https://image.tmdb.org/t/p/w500/fIE3TLqjjM7S7YURas0p3TJG7S9.jpg",
+    "genre": ["Crime", "Drama"],
+    "rate": 8.9
+  },
+  {
+    "id": 6,
+    "title": "Spirited Away",
+    "year": 2001,
+    "director": "Hayao Miyazaki",
+    "duration": "125 min",
+    "poster": "https://image.tmdb.org/t/p/w500/39wmItIW994qowvFErUiMv9qnoW.jpg",
+    "genre": ["Animation", "Adventure", "Family"],
+    "rate": 8.6
+  },
+  {
+    "id": 7,
+    "title": "Interstellar",
+    "year": 2014,
+    "director": "Christopher Nolan",
+    "duration": "169 min",
+    "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlSwwne.jpg",
+    "genre": ["Adventure", "Drama", "Sci-Fi"],
+    "rate": 8.7
+  },
+  {
+    "id": 8,
+    "title": "Parasite",
+    "year": 2019,
+    "director": "Bong Joon-ho",
+    "duration": "132 min",
+    "poster": "https://image.tmdb.org/t/p/w500/7IiTTj0nS21Z2_Y9gnp7McC6qoa.jpg",
+    "genre": ["Comedy", "Drama", "Thriller"],
+    "rate": 8.5
+  },
+  {
+    "id": 9,
+    "title": "The Matrix",
+    "year": 1999,
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "duration": "136 min",
+    "poster": "https://image.tmdb.org/t/p/w500/f89U3Y9L9vwpk79qjao6yu0z3uO.jpg",
+    "genre": ["Action", "Sci-Fi"],
+    "rate": 8.7
+  },
+  {
+    "id": 10,
+    "title": "Gladiator",
+    "year": 2000,
+    "director": "Ridley Scott",
+    "duration": "155 min",
+    "poster": "https://image.tmdb.org/t/p/w500/ty8TGRvS21QvJs7khv0YpT6J6G9.jpg",
+    "genre": ["Action", "Adventure", "Drama"],
+    "rate": 8.5
+  }
+]

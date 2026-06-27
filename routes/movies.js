@@ -1,16 +1,20 @@
 import { Router } from 'express'
 import { MovieController } from '../controllers/movies.js'
-export const moviesRouter = Router()
 
 // easy methods: GET, POST and HEAD
 // hard methods: PUT, PATCH and DELETE use before using themselves OPTIONS // have cors pre-flight
 
-moviesRouter.get('/', MovieController.getAll)
+export const createMovieRouter = ({ movieModel }) => {
+  const moviesRouter = Router()
 
-moviesRouter.get('/:id', MovieController.getById)
+  const movieController = new MovieController({
+    movieModel
+  })
 
-moviesRouter.post('/', MovieController.create)
-
-moviesRouter.patch('/:id', MovieController.update)
-
-moviesRouter.delete('/:id', MovieController.delete)
+  moviesRouter.get('/', movieController.getAll)
+  moviesRouter.get('/:id', movieController.getById)
+  moviesRouter.post('/', movieController.create)
+  moviesRouter.patch('/:id', movieController.update)
+  moviesRouter.delete('/:id', movieController.delete)
+  return moviesRouter
+}
